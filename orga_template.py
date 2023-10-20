@@ -5,19 +5,21 @@ import logging
 logging.basicConfig(level = logging.INFO, format = '[%(asctime)s]: %(message)s:')
 
 project_name = "careFallEye"
+project_sub_name = 'fall_detection'
 
 list_of_files = [
-    ".github/workflows/.gitkeep",
-    f"src/{project_name}/__init__.py",
-    f"src/{project_name}/elder_main.py",
-    f"src/{project_name}/dataset_creation/__init__.py",
-    f"src/{project_name}/config/__init__.py",
-    f"src/{project_name}/config/config.py",
-    f"src/{project_name}/utils/__init__.py",
-    f"src/{project_name}/utils/elder_utils.py",
-    f"src/{project_name}/utils/telegram_utils.py",
-    f"src/{project_name}/model_training/__init__.py",
-    f"src/{project_name}/trained_models/__init__.py",
+    # ".github/workflows/.gitkeep",
+    f"src/{project_sub_name}/__init__.py",
+    "src/elder_main.py",
+    f"src/{project_sub_name}/dataset_creation/__init__.py",
+    f"src/{project_sub_name}/configs/__init__.py",
+    f"src/{project_sub_name}/configs/config.py",
+    f"src/{project_sub_name}/utils/__init__.py",
+    f"src/{project_sub_name}/utils/elder_utils.py",
+    f"src/{project_sub_name}/utils/telegram_utils.py",
+    f"src/{project_sub_name}/model_training/__init__.py",
+    f"src/{project_sub_name}/trained_models/__init__.py",
+    f"src/{project_sub_name}/sample_files/__init__.py",
     "requirements.txt",
     "setup.py"
     
