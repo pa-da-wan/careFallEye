@@ -17,6 +17,7 @@ list_of_files = [
     f"src/{project_name}/utils/elder_utils.py",
     f"src/{project_name}/utils/telegram_utils.py",
     f"src/{project_name}/model_training/__init__.py",
+    f"src/{project_name}/trained_models/__init__.py",
     "requirements.txt",
     "setup.py"
     
@@ -38,4 +39,4 @@ for filepath in list_of_files:
             logging.info(f"Creating empty file: {filepath}")
     
     else:
-        logging.info(f"{filename} is already exists")
+        logging.info(f"{filename} already exists")
