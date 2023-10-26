@@ -65,7 +65,7 @@ careFallEye is an advanced fall detection system developed to enhance safety and
 
    To run the fall detection system on a video or camera stream, execute the following command:
    ```
-    python src/fall_detection/fall_main.py
+    python src/fall_main.py
 
     ```
 2. **Exit the Program:**

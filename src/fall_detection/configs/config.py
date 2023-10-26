@@ -3,7 +3,7 @@ import os
 
 # Paths and Filenames
 MODEL_PATH = os.path.join('src','fall_detection','trained_models','YOLO_best1200.pt') #'path to trained model'
-VIDEO_PATH =  os.path.join('fall_detection','sample_files','fall-02-cam0.mp4') #'path/to/your/video.mp4'
+VIDEO_PATH =  os.path.join('src','fall_detection','sample_files','samplevid2.mp4') #'path/to/your/video.mp4'
 # VIDEO_PATH =  0  # 'for camera'
 SNAPSHOT_DIRECTORY = 'snapshots'
 MAX_SNAPSHOTS=25
