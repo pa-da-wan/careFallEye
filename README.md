@@ -53,7 +53,7 @@ careFallEye is an advanced fall detection system developed to enhance safety and
 
 1. **Modify Configuration Parameters:**
 
-   - Open the `fall_detection/configs/config.py` file with a text editor.
+   - Open the `src/fall_detection/configs/config.py` file with a text editor.
    - Customize the configuration parameters according to your preferences. Key configurations include:
      - Paths and filenames
      - Detection settings (confidence threshold, wait duration after fall, etc.)
@@ -65,7 +65,7 @@ careFallEye is an advanced fall detection system developed to enhance safety and
 
    To run the fall detection system on a video or camera stream, execute the following command:
    ```
-    python fall_detection/fall_main.py
+    python src/fall_detection/fall_main.py
 
     ```
 2. **Exit the Program:**
@@ -86,9 +86,6 @@ careFallEye is an advanced fall detection system developed to enhance safety and
 
 - Use the provided `train_model.ipynb` Jupyter Notebook to train your YOLO model with the custom dataset.
 - Save your trained model in the `fall_detection/trained_models` directory.
-
-
-
 
 
 ## Customization
