@@ -17,11 +17,11 @@ careFallEye is an advanced fall detection system developed to enhance safety and
 - [Customization](#customization)
 
 ## Demo
-Demo 1
-![github](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExaDdmaGUya3JxdmJ5dzFmNWhqc3B6NW9jcjdmcTE4eWxpanlpb3A4YyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/f53gFSqUZvaUnktPk3/giphy.gif)
 
-Demo 2
-![github](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExd2lxYWF6ZnBhZXVzandtYnM3eHNrdG41eHIzdG1hczMxaHNzcHdkZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/uEq6VMWwuPP0bnWoD9/giphy.gif)
+![github](
+https://github.com/pa-da-wan/careFallEye/assets/73534577/72288dbb-0040-4b06-80f4-e75ffd206900)
+
+
 
 ## Features
 
