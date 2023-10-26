@@ -1,6 +1,6 @@
 
 # careFallEye: Elderly Fall Detection System
-careFallEye is an advanced fall detection system developed to enhance safety and well-being, particularly for the elderly and vulnerable individuals. The project was implemented using YOLO (You Only Look Once) object detection model. Upon detecting a fall, the system captures relevant frames and promptly sends notifications via Telegram, allowing caregivers, family members to respond swiftly.
+careFallEye is an advanced fall detection system developed to enhance safety and well-being, particularly for the elderly and vulnerable individuals. The project was implemented using YOLO (You Only Look Once) object detection model. Upon detecting a fall, the system captures relevant frames and promptly sends notifications via Telegram, allowing caregiver or family members to respond swiftly.
 
 
 
