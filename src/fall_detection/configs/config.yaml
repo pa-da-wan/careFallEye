@@ -1,0 +1,15 @@
+
+paths:
+  model_path: 'fall_detection/trained_models/YOLO_best1200.pt'
+  video_path: 'fall_detection/sample_files/samplevid2.mp4'
+  snapshot_directory: 'snapshots'
+
+detection_settings:
+  confidence_threshold: 0.47
+  wait_duration_after_fall: 2
+  max_snapshots: 20
+  snapshot_interval: 10
+
+telegram_api_settings:
+  telegram_bot_api: '${{ env.TELEGRAM_BOT_API }}'
+  telegram_fd_group_code: '${{ env.TELEGRAM_FD_GROUP_CODE }}'
