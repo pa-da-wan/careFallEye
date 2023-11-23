@@ -105,11 +105,24 @@ DEMO 2:
 ## Training Your Own Model (Optional)
 ### Dataset Preparation
 
-1. **Prepare a Custom Dataset:**
+The dataset used for training the model was collected from various publically available sources to ensure a diverse and comprehensive set of scenarios for fall detection. The data sources include:
 
-- Create a custom dataset for fall detection.
-- Organize the dataset according to the required directory structure.
+1. [**CAUCAFall**](https://www.sciencedirect.com/science/article/pii/S2352340922008162)
+2. [**Multicam Fall Dataset, U. Montreal**](http://www.iro.umontreal.ca/~labimage/Dataset/)
+3. [**UR Fall Detection Dataset (URFD)**](http://fenix.ur.edu.pl/~mkepski/ds/uf.html)
+4. [**Le2i fall detection dataset**](https://www.kaggle.com/datasets/tuyenldvn/falldataset-imvia)
+5. [**High quality fall simulation data**](https://kuleuven.app.box.com/s/dyo66et36l2lqvl19i9i7p66761sy0s6)
+6. Google Images
 
+### Data Collection Process
+
+Screenshots of relevant scenes were extracted from video clips obtained from the mentioned datasets. These screenshots were then annotated to create a labeled dataset with three categories: "no_fall," "fall," and "fall_prone."
+
+### Annotated Dataset
+
+The annotated dataset is available in the [src/fall_detection/dataset_creation](src/fall_detection/dataset_creation) directory. The dataset includes images labeled for fall detection training. Feel free to explore and utilize this dataset for training purposes.
+
+I encourage contributions and the addition of more image data to enhance the robustness of the model. If you have additional data that could benefit the project, please consider sharing it with the community.
 ### Training the Model
 
 1. **Training Your YOLO Model:**
