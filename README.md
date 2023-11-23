@@ -61,7 +61,7 @@ https://github.com/pa-da-wan/careFallEye/assets/73534577/72288dbb-0040-4b06-80f4
 
     - **Using Conda:**
       ```bash
-      conda create --name careFallEye python=3.8
+      conda create --name careFallEye python=3.9
       conda activate careFallEye
       ```
 
