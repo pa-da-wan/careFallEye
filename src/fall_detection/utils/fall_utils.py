@@ -1,7 +1,14 @@
 import cv2
 from ultralytics import YOLO
+import yaml
 import os
-from fall_detection.configs.config import *
+
+
+config_path='src/fall_detection/configs/config.yaml'
+with open(config_path, 'r') as file:
+    config = yaml.safe_load(file)
+
+max_snaps = config['detection_settings']['max_snapshots']
 
 class ObjectDetector:
     def __init__(self, model_path):
@@ -16,7 +23,7 @@ def create_snapshot_directory(directory_path):
     if not os.path.exists(directory_path):
         os.makedirs(directory_path)
 
-def clear_snapshots_directory(directory_path, max_snapshots=MAX_SNAPSHOTS):
+def clear_snapshots_directory(directory_path, max_snapshots=max_snaps):
     # Clear existing files in the snapshots directory, keeping at most `max_snapshots` number of pictures
     files = sorted(os.listdir(directory_path), key=lambda x: os.path.getctime(os.path.join(directory_path, x)))
     while len(files) > max_snapshots:
