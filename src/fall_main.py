@@ -5,7 +5,7 @@ from fall_detection.utils.telegram_utils import send_message_with_image
 import yaml
 import time
 
-def load_config(config_path='fall_detection/configs/config.yaml'):
+def load_config(config_path='src/fall_detection/configs/config.yaml'):
     with open(config_path, 'r') as file:
         config = yaml.safe_load(file)
     return config
