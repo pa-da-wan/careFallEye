@@ -19,7 +19,7 @@ careFallEye is an advanced fall detection system developed to enhance safety and
 ## Demo
 
 ![github](
-https://github.com/pa-da-wan/careFallEye/assets/73534577/2602d88b-2f11-499d-bf44-0a48cda793d0)
+https://github.com/pa-da-wan/careFallEye/assets/73534577/6da99666-c41b-4368-b3c3-3da607f5d82a)
 
 
 
