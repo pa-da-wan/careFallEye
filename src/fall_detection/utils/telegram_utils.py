@@ -1,9 +1,15 @@
 import requests
-from fall_detection.configs.config import *
+import os
+import yaml
+
+
+config_path='src/fall_detection/configs/config.yaml'
+with open(config_path, 'r') as file:
+    config = yaml.safe_load(file)
 
 def send_message_with_image(image_path, caption):
-    API_KEY = TELEGRAM_BOT_API
-    FALL_DETECTION_GROUP_CODE = TELEGRAM_FD_GROUP_CODE
+    API_KEY = os.getenv("TELEGRAM_BOT_API") or config['telegram_api_settings']['telegram_bot_api']
+    FALL_DETECTION_GROUP_CODE = os.getenv("TELEGRAM_FD_GROUP_CODE") or config['telegram_api_settings']['telegram_fd_group_code']
     url = f"https://api.telegram.org/bot{API_KEY}/sendPhoto"
 
     with open(image_path, "rb") as file:
