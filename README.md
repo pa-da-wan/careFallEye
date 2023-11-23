@@ -49,7 +49,23 @@ https://github.com/pa-da-wan/careFallEye/assets/73534577/72288dbb-0040-4b06-80f4
     cd careFallEye
     ```
 
-3. **Install Required Packages:**
+3. **Create a Virtual Environment:**
+
+    Choose one of the following methods to create and activate a virtual environment:
+
+    - **Using Pip:**
+      ```bash
+      python -m venv venv
+      source venv/bin/activate   # On Windows: .\venv\Scripts\activate
+      ```
+
+    - **Using Conda:**
+      ```bash
+      conda create --name careFallEye python=3.8
+      conda activate careFallEye
+      ```
+
+4. **Install Required Packages:**
 
     Install the necessary Python packages by running the following command:
 
@@ -62,11 +78,12 @@ https://github.com/pa-da-wan/careFallEye/assets/73534577/72288dbb-0040-4b06-80f4
 
 1. **Modify Configuration Parameters:**
 
-   - Open the `src/fall_detection/configs/config.py` file with a text editor.
-   - Customize the configuration parameters according to your preferences. Key configurations include:
-     - Paths and filenames
-     - Detection settings (confidence threshold, wait duration after fall, etc.)
-     - Telegram API settings
+
+    - Open the `config.yaml` file in the `fall_detection/configs` directory with a text editor.
+    - Customize the configuration parameters according to your preferences. Key configurations include:
+      - Paths and filenames
+      - Detection settings (confidence threshold, wait duration after fall, etc.)
+      - Telegram API settings
 
 ### Running the Fall Detection System
 
