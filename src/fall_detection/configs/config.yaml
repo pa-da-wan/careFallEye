@@ -1,7 +1,7 @@
 
 paths:
-  model_path: 'fall_detection/trained_models/YOLO_best1200.pt'
-  video_path: 'fall_detection/sample_files/samplevid2.mp4'
+  model_path: 'src/fall_detection/trained_models/YOLO_best1200.pt'
+  video_path: 'src/fall_detection/sample_files/samplevid2.mp4'
   snapshot_directory: 'snapshots'
 
 detection_settings:
